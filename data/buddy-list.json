@@ -17,7 +17,8 @@
       "status": "Active",
       "email": "lbird@yahoo.com",
       "birthday": "01/01/1965",
-      "bio": "One of the all time greats in basketball history"
+      "bio": "One of the all time greats in basketball history",
+      "priority": true
     },
     {
       "userName": "l_james",

@@ -1,5 +1,9 @@
-.left-nav, .main-page{
+#left-nav, #main-page{
   display: inline-block;
+}
+
+#left-nav a{
+  display: block;
 }
 
 .buddy-list{

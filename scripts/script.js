@@ -28,7 +28,7 @@ var myApp = angular
             if ( confirmDelete ) {
                 $http.delete('http://localhost:1234/user/' + userName, {},
                     function (response) {
-                        alert(response.data.status);
+                        console.log(response.data.status);
                     },
                     function (failure) {
                         console.log('delete failed');
@@ -37,12 +37,21 @@ var myApp = angular
             }
         }
 
-        $scope.prioritize = function ( username ) {
+        $scope.prioritize = function ( userName ) {
            var selectedBuddy = _.find( $scope.buddyList, function( buddy ) {
-                return buddy.userName === username;
+                return buddy.userName === userName;
             });
 
             selectedBuddy.prioritized = true;
+
+           $http.put('http://localhost:1234/user/' + userName, JSON.stringify( selectedBuddy ),
+                function ( response ) {
+                    console.log( response.data.status );
+                },
+                function ( failure ){
+                    console.log('Prioritize call failed.');
+                }
+           );
         }
     })
     .controller( 'addBuddyController', function ( $scope, $http, $log ) {

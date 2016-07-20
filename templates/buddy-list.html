@@ -3,7 +3,7 @@
     <div class="buddy-list">
         <a href="#/add-user" type="button" class="btn btn-primary">Add</a>
         <ul class="list-group user-list" >
-            <li class="list-group-item" data-ng-repeat='buddy in buddyList'>
+            <li class="list-group-item" data-ng-repeat="buddy in buddyList | orderBy:'priority':false">
                 <div onclick="toggleDetailsDisplay( this )">
                     <div>{{buddy.userName}}</div>
                     <div>{{buddy.firstName}} {{buddy.lastName}}</div>
