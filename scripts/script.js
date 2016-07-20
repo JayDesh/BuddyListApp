@@ -18,8 +18,6 @@ var myApp = angular
             url: '../data/buddy-list.json'
         })
         .then( function ( response ) {
-            var responseData = response.data.buddies;
-            _.each( reponseData)
             $scope.buddyList = response.data.buddies;
             $log.info(response);
         });
