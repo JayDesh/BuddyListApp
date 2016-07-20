@@ -1,0 +1,40 @@
+.left-nav, .main-page{
+  display: inline-block;
+}
+
+.buddy-list{
+  background: rgba(100,100,100,0.5);
+  max-width: 30rem;
+  border: 2px solid #000000;
+  padding: 2px;
+  margin: 100px;
+}
+
+li{
+  border: 1px solid #000000;
+  background: #76d0eb!important;
+}
+
+.user-list{
+  list-style: none;
+  margin: 30px 5px !important;
+}
+
+.hidden{
+  display: none;
+}
+
+.visible{
+  display: inline-block;
+}
+
+label{
+  width: 30%;
+}
+
+.prioritized{
+  background: url('../images/american_star.jpg');
+  height: 20px;
+  width: 20px;
+
+}

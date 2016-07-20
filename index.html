@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html data-ng-app="myModule">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link  rel="stylesheet" type="text/css" href="css/mystyle.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css"/>
+    <script type="text/javascript" src="scripts/angular.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <script type="text/javascript" src="scripts/angular-route.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
+</head>
+<body>
+    <div id="left-nav">
+        <a href="#/buddy-list">Buddy List</a>
+        <a href="#/add-user">Add User</a>
+    </div>
+    <div id="main-page">
+        <ng-view></ng-view>
+    </div>
+</body>
+</html>
+
+

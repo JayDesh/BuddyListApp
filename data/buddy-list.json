@@ -1,0 +1,34 @@
+{
+  "status": "success",
+  "buddies": [
+    {
+      "userName": "m_jordan",
+      "firstName": "Michael",
+      "lastName": "Jordon",
+      "status": "Active",
+      "email": "michael@yahoo.com",
+      "birthday": "01/01/1970",
+      "bio": "Greatest basketball player ever"
+    },
+    {
+      "userName": "l_bird",
+      "firstName": "Larry",
+      "lastName": "Bird",
+      "status": "Active",
+      "email": "lbird@yahoo.com",
+      "birthday": "01/01/1965",
+      "bio": "One of the all time greats in basketball history"
+    },
+    {
+      "userName": "l_james",
+      "firstName": "Lebron",
+      "lastName": "James",
+      "status": "Offline",
+      "email": "lbron@yahoo.com",
+      "birthday": "01/01/1985",
+      "bio": "Currently the the best basketball player"
+      "lastSignIn": "2016-06-12T08:50Z"
+    }
+  ]
+
+}
