@@ -1,58 +1,29 @@
 <script type="text/javascript" src="../scripts/script.js"></script>
-<div ng-controller="addBuddyController"></div>
+<div class="add-user" ng-controller="addBuddyController">
 <h1> Add New User</h1>
-<form ng-submit="submitUserData()">
-    <div>
-        <label>Username:</label><input type="text" ng-model="user.userName">
-    </div>
-    <div>
-        <label>First name:</label><input type="text" ng-model="user.firstName">
-    </div>
-    <div>
-        <label>Last Name:</label><input type="text" ng-model="user.lastName">
-    </div>
-    <div>
-        <label>Email Address:</label><input type="text" ng-model="user.email">
-    </div>
-    <div>
-        <label>Biodata:</label><input type="text" ng-model="user.bio">
-    </div>
-    <div>
-        <label>Status:</label><input type="text" ng-model="user.status">
-    </div>
-    <div>
-        <label>Birthday:</label><input type="date" ng-model="user.birthday">
-    </div>
+    <form ng-submit="submitUserData()">
+        <div>
+            <label>Username:</label><input type="text" ng-model="user.userName">
+        </div>
+        <div>
+            <label>First name:</label><input type="text" ng-model="user.firstName">
+        </div>
+        <div>
+            <label>Last Name:</label><input type="text" ng-model="user.lastName">
+        </div>
+        <div>
+            <label>Email Address:</label><input type="text" ng-model="user.email">
+        </div>
+        <div>
+            <label>Biodata:</label><input type="text" ng-model="user.bio">
+        </div>
+        <div>
+            <label>Status:</label><input type="text" ng-model="user.status">
+        </div>
+        <div>
+            <label>Birthday:</label><input type="date" ng-model="user.birthday">
+        </div>
 
-    <input type="submit" ngClick="Submit" >
-</form>
-
-
-<!--<div>-->
-    <!--<label for="">Username:</label>-->
-    <!--<input ng-model="userName" type="text">-->
-<!--</div>-->
-<!--<div>-->
-    <!--<label for="">First Name:</label>-->
-    <!--<input ng-model="firstName" type="text">-->
-<!--</div>-->
-<!--<div>-->
-    <!--<label for="">Last Name:</label>-->
-    <!--<input ng-model="lastName" type="text">-->
-<!--</div>-->
-<!--<div>-->
-    <!--<label for="">Status:</label>-->
-    <!--<input ng-model="Status" type="text">-->
-<!--</div>-->
-<!--<div>-->
-    <!--<label for="">Email Address:</label>-->
-    <!--<input type="text">-->
-<!--</div>-->
-<!--<div>-->
-    <!--<label for="">Birth Date:</label>-->
-    <!--<input type="text">-->
-<!--</div>-->
-<!--<div>-->
-    <!--<label for="">Biodata:</label>-->
-    <!--<input type="text">-->
-<!--</div>-->
+        <input type="submit" ngClick="Submit" >
+    </form>
+</div>

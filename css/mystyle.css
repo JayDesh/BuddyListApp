@@ -1,17 +1,44 @@
+body{
+  background: #c5c2c8;
+  padding: 20px 10px;
+}
+
 #left-nav, #main-page{
   display: inline-block;
+}
+#main-page{
+  margin-left: 5px;
+  width: 35%;
+}
+
+#left-nav{
+  float: left;
+  width: 10%;
+  background: #edffff;
 }
 
 #left-nav a{
   display: block;
 }
+.add-user{
+  background: #85c87d;
+}
 
+.add-user > h1, .add-user > form {
+  margin:  0 0 10px 10px;
+}
+
+form input[type="submit"]{
+  margin-left:40%;
+}
+form div input {
+  width:60%;
+}
 .buddy-list{
   background: rgba(100,100,100,0.5);
   max-width: 30rem;
   border: 2px solid #000000;
   padding: 2px;
-  margin: 100px;
 }
 
 li{
