@@ -58,8 +58,9 @@ var myApp = angular
 
         $scope.user = {};
 
-
         $scope.submitUserData = function () {
+            $scope.user.birthdayISO = $scope.user.birthday.toISOString();
+            delete($scope.user.birthday);
             $http.post( 'http://localhost:1234/user', {params: $scope.user},
                 function (response) {
                     $scope.results = response;
