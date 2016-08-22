@@ -44,7 +44,7 @@ var myApp = angular
 
         $rootScope.prioritize = function ( index ) {
           $rootScope.buddyList[ index ].priority = true;
-          $route.reload();
+          $route.reload();   //to ensure that records are sorted by priority.
            $http.put('http://localhost:1234/user/' + $rootScope.buddyList[ index ].userName, JSON.stringify( $rootScope.buddyList[ index ]   ),
                 function ( response ) {
                     console.log( response.data.status );
