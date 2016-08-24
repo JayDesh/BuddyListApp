@@ -8,7 +8,8 @@
       "status": "Active",
       "email": "michael@yahoo.com",
       "birthday": "01/01/1970",
-      "bio": "Greatest basketball player ever"
+      "bio": "Greatest basketball player ever",
+      "image": "male1.jpeg"
     },
     {
       "userName": "l_bird",
@@ -18,7 +19,8 @@
       "email": "lbird@yahoo.com",
       "birthday": "01/01/1965",
       "bio": "One of the all time greats in basketball history",
-      "priority": true
+      "priority": true,
+      "image": "male2.jpeg"
     },
     {
       "userName": "l_james",
@@ -28,7 +30,8 @@
       "email": "lbron@yahoo.com",
       "birthday": "01/01/1985",
       "bio": "Currently the the best basketball player",
-      "lastSignIn": "2016-06-12T08:50Z"
+      "lastSignIn": "2016-06-12T08:50Z",
+      "image": "male3.png"
     }
   ]
 
