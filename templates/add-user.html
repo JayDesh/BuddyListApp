@@ -2,28 +2,30 @@
 <div class="add-user" ng-controller="addBuddyController">
 <h1> Add New User</h1>
     <form ng-submit="submitUserData()">
-        <div>
-            <label>Username:</label><input type="text" ng-model="user.userName">
+        <div class="form-item">
+            <div>Username:</div>
+            <input type="text" ng-model="user.userName">
         </div>
-        <div>
-            <label>First name:</label><input type="text" ng-model="user.firstName">
+        <div class="form-item">
+            <div>First name:</div>
+            <input type="text" ng-model="user.firstName">
         </div>
-        <div>
-            <label>Last Name:</label><input type="text" ng-model="user.lastName">
+        <div class="form-item">
+            <div>Last Name:</div><input type="text" ng-model="user.lastName">
         </div>
-        <div>
-            <label>Email Address:</label><input type="text" ng-model="user.email">
+        <div class="form-item">
+            <div>Email Address:</div><input type="text" ng-model="user.email">
         </div>
-        <div>
-            <label>Biodata:</label><input type="text" ng-model="user.bio">
+        <div class="form-item">
+            <div>Biodata:</div><input type="text" ng-model="user.bio">
         </div>
-        <div>
-            <label>Status:</label><input type="text" ng-model="user.status">
+        <div class="form-item">
+            <div>Status:</div><input type="text" ng-model="user.status">
         </div>
-        <div>
-            <label>Birthday:</label><input type="date" ng-model="user.birthday">
+        <div class="form-item">
+            <div>Birthday:</div><input type="date" ng-model="user.birthday">
         </div>
 
-        <input type="submit" ngClick="Submit" >
+        <input class="btn btn-primary" type="submit" ngClick="Submit" >
     </form>
 </div>
